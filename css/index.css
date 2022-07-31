@@ -1,0 +1,420 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* 內减模式 */
+    box-sizing: border-box;
+}
+
+/* 版心 */
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+
+/* 清除浮动主要代码 */
+.clearfix:after {
+    clear: both;
+}
+
+body {
+    background-color: #f3f5f7;
+}
+
+/* -----头部信息----- */
+.header {
+    height: 42px;
+    margin: 30px auto;
+
+}
+
+/* 头部信息-logo */
+.header h1 {
+    float: left;
+}
+
+/* 头部信息-导航 */
+.header .nav {
+    float: left;
+    margin-left: 70px;
+    height: 42px;
+}
+
+.header .nav li {
+    float: left;
+    margin-right: 26px;
+}
+
+.header .nav a {
+    display: block;
+    padding: 0 9px;
+    line-height: 42px;
+    font-size: 18px;
+    color: #050505;
+    letter-spacing: 2px;
+}
+
+.header li:hover {
+    border-bottom: 2px solid #00a4ff;
+}
+
+/* 头部信息-搜索 */
+.header .search {
+    float: left;
+    margin-left: 25px;
+    width: 412px;
+    height: 40px;
+}
+
+.header .search input {
+    float: left;
+    padding-left: 21px;
+    width: 362px;
+    height: 40px;
+    border-right: 0px;
+    outline: none;
+}
+
+.header .search input::placeholder {
+    color: 14px;
+    font-size: #bfbfbf;
+}
+
+.header .search button {
+    float: left;
+    width: 50px;
+    height: 40px;
+    background-image: url("../images/btn.png");
+    border: 0px;
+}
+
+/* 头部信息-用户信息 */
+.header .user {
+    float: left;
+    margin-left: 31px;
+    height: 42px;
+    line-height: 42px;
+}
+
+.header .user img {
+    vertical-align: middle;
+}
+
+.header .user span {
+    margin-left: 6px;
+}
+
+/*  -----轮播图-----  */
+.banner {
+    height: 1200px;
+    height: 420px;
+    background-color: #1c036c;
+}
+
+.banner .wrapper {
+    height: 420px;
+    background-image: url("../images/banner2.png");
+}
+
+/*  轮播图-左导航  */
+.banner .left {
+    float: left;
+    padding: 5px 20px 0px;
+    width: 190px;
+    height: 420px;
+    line-height: 45px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.banner .left a {
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.banner .left span {
+    float: right;
+}
+
+.banner .left a:hover {
+    color: #00a4ff;
+}
+
+/*  轮播图-我的课程表  */
+.banner .right {
+    float: right;
+    margin-top: 50px;
+    width: 228px;
+    height: 300px;
+    background-color: #ffffff;
+}
+
+.banner .right h2 {
+    height: 48px;
+    text-align: center;
+    font-size: 18px;
+    color: #ffffff;
+    line-height: 48px;
+    background-color: #9bceea;
+}
+
+.banner .right .content {
+    margin: 7px 19px 0px;
+}
+
+.banner .right dl {
+    padding: 12px 0px;
+    border-bottom: 2px solid #e5e5e5;
+}
+
+.banner .right a {
+    font-size: 16px;
+    color: #4e4e4e;
+}
+
+.banner .right dd {
+    font-size: 12px;
+    color: #a5a5a5;
+}
+
+.banner .right .more {
+    display: block;
+    margin-top: 6px;
+    width: 190px;
+    height: 42px;
+    text-align: center;
+    line-height: 41px;
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px solid #00a4ff;
+}
+
+.banner .right a:hover,
+.banner .right .more:hover {
+    color: #00a4ff;
+}
+
+/* -----精品推荐----- */
+.goods {
+    margin-top: 8px;
+    padding: 21px 0;
+    height: 60px;
+    background-color: #ffffff;
+}
+
+.goods h2 {
+    float: left;
+    padding: 0 34px;
+    font-size: 16px;
+    color: #00a4ff;
+}
+
+.goods li {
+    float: left;
+    padding: 0 34px;
+    border-left: 1px solid #a5a5a5;
+}
+
+.goods .left a {
+    font-size: 16px;
+    color: #050505;
+}
+
+.goods .left a:hover {
+    color: #00a4ff;
+}
+
+.goods .right a {
+    float: right;
+    margin-right: 26px;
+    font-size: 14px;
+    color: #00a4ff;
+}
+
+/* -----精品推荐----- */
+
+.box .title,
+.box1 .title,
+.box2 .title {
+    margin-top: 20px;
+    height: 20px;
+}
+
+.box .title h2,
+.box1 .title h2,
+.box2 .title h2 {
+    float: left;
+    line-height: 20px;
+    font-size: 20px;
+    color: #494949;
+}
+
+.box .title .right,
+.box1 .title .right,
+.box2 .title .right {
+    float: right;
+    margin-right: 35px;
+    line-height: 20px;
+    font-size: 12px;
+    color: #a5a5a5;
+}
+
+.box .title .right:hover,
+.box1 .title .right:hover,
+.box2 .title .right:hover {
+    color: #00a4ff;
+}
+
+.box .content,
+.box1 .content,
+.box2 .content {
+    margin-top: 21px;
+}
+
+.box ul li,
+.box1 .right li,
+.box2 .content li {
+    position:relative;
+    float: left;
+    margin: 0px 15px 15px 0px;
+    width: 228px;
+    height: 270px;
+    background-color: #ffffff;
+    transition: all 250ms cubic-bezier(.02, .01, .47, 1);
+}
+
+.box ul li:nth-child(5n),
+.box1 .right li:nth-child(4n),
+.box2 .content li:nth-child(5n) {
+    margin-right: 0px;
+}
+.box .content li .hot{
+    position: absolute;
+    right: -4px;
+    top: 4px;
+}
+/* 鼠标悬停在盒子上时，盒子呈现浮起效果 */
+.box ul li:hover,
+.box1 .right li:hover,
+.box2 .content li:hover {
+    box-shadow: 0 16px 32px 0 rgba(48, 55, 66, 0.15);
+    transform: translate(0, -5px);
+    transition-delay: 0s !important;
+}
+
+.box ul h3,
+.box1 .right h3,
+.box2 .content h3 {
+    margin: 15px 25px 0px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #050505;
+}
+
+.box ul p,
+.box1 .right p,
+.box2 .content p {
+    margin: 20px 0px 0px 25px;
+    color: #999999;
+    font-size: 12px;
+}
+
+.box ul span,
+.box1 .right span,
+.box2 .content span {
+    color: #ff7c2d;
+}
+
+/* 编程入门 */
+.box1 .title ul,
+.box2 .title ul {
+    margin-left: 361px;
+}
+
+.box1 .title li,
+.box2 .title li {
+    float: left;
+    margin-left: 70px;
+}
+
+.box1 .title li a,
+.box2 .title li a {
+    font-size: 16px;
+    color: #868686;
+}
+
+.box1 .title li a:hover,
+.box2 .title li a:hover {
+    color: #00a4ff;
+}
+
+.box1 .content .left {
+    float: left;
+    margin-right: 15px;
+}
+
+.box1 .right ul {
+    margin-top: 17px;
+}
+/* footer */
+.footer{
+    height: 220px;
+    padding-top: 33px;
+    background-color: #ffffff;
+}
+.footer .left{
+    float: left;
+}
+.footer .left p{
+    margin-top: 24px;
+    font-size: 12px;
+    line-height: 18px;
+    color: #666666;
+    
+}
+.footer .left .downloads{
+    display: block;
+    margin-top: 15px;
+    width: 120px;
+    height: 36px;
+    text-align: center;
+    line-height: 36px;
+    font-weight: bold;
+    color: #00a4ff;
+    border: 1px solid #00a4ff;
+}
+.footer .right{
+    margin-right: 30px;
+    float: right;
+}
+.footer .right dl{
+    margin-left: 146px;
+    float: left;
+}
+.footer .right dt{
+    margin-bottom: 14px;
+    font-size: 16px;
+    line-height: 21px;
+    color: #333333;
+}
+.footer .right a{
+    font-size: 12px;
+    line-height: 21px;
+    color: #333333;
+}
+.footer .right a:hover{
+    color: #00a4ff;
+}
